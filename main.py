@@ -8,8 +8,11 @@ if __name__ == '__main__':
         print("Digite a Recorrência que se deseja analisar ou 'sair' para encerrar o programa.")
         print("T(n) = aT(n /b)+f(n). O f(n) será estabelecido da seguinte forma: n^k log^p n")
         
-        expression = input()
-        if expression == 'sair':
+        try:
+            expression = input()
+        except EOFError:
+            break
+        if expression.strip().lower() == 'sair':
             break 
         else:
             teorema_instance.metodo_mestre(expression)
