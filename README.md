@@ -1,6 +1,7 @@
 # Método Mestre
 
 Nome: Kaysson Gabriel Inocêncio de Jesus e  Rhennan Augusto Santana do Carmo.
+
 Tema: 1.f) Desenvolver uma ferramenta para apresentar a complexidade de tempo de algoritmos recursivos com base na aplicação do Teorema Mestre.
 
 
